@@ -154,3 +154,6 @@ A smart backend system for managing candidates, jobs, interviews, resumes, and a
 •	✅ Connect to front-end (React/Angular)
 
 •	✅ Integrate with LinkedIn APIs or external job boards
+
+## DB Schema :
+
