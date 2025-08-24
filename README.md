@@ -143,3 +143,9 @@ A smart backend system for managing candidates, jobs, interviews, resumes, and a
     http://localhost:8080/api/resumes/upload{id}
     http://localhost:8080/api/reports/summary
     
+📈 Future Improvements
+•	✅ Add authentication and role-based access (Admin, Recruiter)
+•	✅ Integrate PDF parsing for resume upload
+•	✅ Export reports to Excel or PDF
+•	✅ Connect to front-end (React/Angular)
+•	✅ Integrate with LinkedIn APIs or external job boards
