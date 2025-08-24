@@ -26,3 +26,15 @@ A smart backend system for managing candidates, jobs, interviews, resumes, and a
 - ✅ **Scheduled Tasks**  
   (Pluggable) Run daily or weekly reports or reminders.
 
+## 🧰 Tech Stack
+
+| Layer           | Technology                      |
+|----------------|----------------------------------|
+| **Backend**     | Java 17, Spring Boot 3.x         |
+| **Build Tool**  | Maven                            |
+| **Database**    | MySQL                            |
+| **ORM**         | Spring Data JPA (Hibernate)      |
+| **Validation**  | Jakarta Validation API           |
+| **Email**       | JavaMail API                     |
+| **Scheduling**  | Spring `@Scheduled`              |
+| **Testing**     | JUnit, Mockito *(Optional)*      |
