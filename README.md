@@ -110,3 +110,18 @@ A smart backend system for managing candidates, jobs, interviews, resumes, and a
         ├── EmailUtil.java                        // Utility classes (logic helper classes)
         ├── KeywordMatcher.java
         └── DateUtil.java
+
+## ⚙️ Setup Instructions :-
+
+### 1. Prerequisites
+
+- Java 17+
+- Maven 3.8+
+- MySQL running on `localhost:3306`
+- Any IDE (IntelliJ, VSCode, Eclipse)
+
+1️ Clone this Repository-
+  
+    git clone https://github.com/your-username/Talentflow-Recruitment-Analytics-platform-project.git
+    cd Talentflow-Recruitment-Analytics-platform-project
+
