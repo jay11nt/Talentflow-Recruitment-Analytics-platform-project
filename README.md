@@ -125,3 +125,10 @@ A smart backend system for managing candidates, jobs, interviews, resumes, and a
     git clone https://github.com/your-username/Talentflow-Recruitment-Analytics-platform-project.git
     cd Talentflow-Recruitment-Analytics-platform-project
 
+2️ Configure MySQL Database-
+
+    # application.properties
+    spring.datasource.url=jdbc:mysql://localhost:3306/recruitment_management
+    spring.datasource.username=your_mysql_username
+    spring.datasource.password=your_mysql_password
+    spring.jpa.hibernate.ddl-auto=update
