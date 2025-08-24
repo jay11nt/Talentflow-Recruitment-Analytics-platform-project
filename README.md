@@ -132,3 +132,14 @@ A smart backend system for managing candidates, jobs, interviews, resumes, and a
     spring.datasource.username=your_mysql_username
     spring.datasource.password=your_mysql_password
     spring.jpa.hibernate.ddl-auto=update
+
+3️ Run the Application
+
+4️ Access API Endpoints-
+
+    http://localhost:8080/api/candidates
+    http://localhost:8080/api/jobs
+    http://localhost:8080/api/interviews/schedule
+    http://localhost:8080/api/resumes/upload{id}
+    http://localhost:8080/api/reports/summary
+    
