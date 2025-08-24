@@ -26,7 +26,7 @@ A smart backend system for managing candidates, jobs, interviews, resumes, and a
 - ✅ **Scheduled Tasks**  
   (Pluggable) Run daily or weekly reports or reminders.
 
-## 🧰 Tech Stack
+## 🧰 Tech Stack :-
 
 | Layer           | Technology                      |
 |----------------|----------------------------------|
@@ -38,3 +38,75 @@ A smart backend system for managing candidates, jobs, interviews, resumes, and a
 | **Email**       | JavaMail API                     |
 | **Scheduling**  | Spring `@Scheduled`              |
 | **Testing**     | JUnit, Mockito *(Optional)*      |
+
+## 🗂️ Project Structure :-
+    src/main/java/com/talentflow/
+    ├── TalentFlowApplication.java                 // Main Spring Boot class   
+    ├── config/
+    │   └── SchedulingConfig.java                 // @EnableScheduling config 
+    
+    ├── entity/
+    │   ├── Candidate.java                        // JPA entities
+    │   ├── Job.java
+    │   └── Interview.java
+    │   └── Resume.java  
+    
+    ├── dto/
+    │   ├── request/
+    │   │   ├── CandidateRequestDTO.java          // Create/Update requests
+    │   │   ├── JobRequestDTO.java
+    │   │   └── InterviewRequestDTO.java
+    │   │    └── ResumeRequestDTO.java
+    │   └── response/
+    │       ├── CandidateResponseDTO.java         // API responses
+    │       ├── JobResponseDTO.java
+    │       ├── InterviewResponseDTO.java
+    │       ├── ResumeResponseDTO.java    
+    │       └── ApiResponseDTO.java               // Generic response wrapper 
+    
+    ├── mapper/
+    │   ├── CandidateMapper.java
+    │   ├── JobMapper.java
+    │   ├── InterviewMapper.java
+    │   └── ResumeMapper.java		//DTO entity conversion  
+    
+    ├── repository/
+    │   ├── CandidateRepository.java              // JPA repositories
+    │   ├── JobRepository.java
+    │   └── InterviewRepository.java
+    │   └── ResumeRepository.java
+    
+    ├── service/
+    │   ├── CandidateService.java                 // Service interfaces
+    │   ├── JobService.java
+    │   ├── InterviewService.java
+    │   ├── EmailService.java
+    │   └── ScheduledService.java
+    │   ├── ResumeService.java  
+    
+    ├── service/impl/
+    │   ├── CandidateServiceImpl.java             // Service implementations
+    │   ├── JobServiceImpl.java
+    │   ├── InterviewServiceImpl.java
+    │   ├── EmailServiceImpl.java
+    │   └── ScheduledServiceImpl.java
+    │   ├── ResumeServiceImpl.java    
+    
+    ├── controller/
+    │   ├── CandidateController.java              // REST controllers
+    │   ├── JobController.java
+    │   ├── InterviewController.java
+    │   └── ReportController.java
+    │  ├── ResumeController.java  
+    
+    ├── exception/
+    │   ├── GlobalExceptionHandler.java           // @ControllerAdvice
+    │   ├── CandidateNotFoundException.java       // Custom exceptions
+    │   ├── JobNotFoundException.java
+    │   └── InterviewConflictException.java
+         └── ResumeNotFoundException.java
+    
+    └── util/
+        ├── EmailUtil.java                        // Utility classes (logic helper classes)
+        ├── KeywordMatcher.java
+        └── DateUtil.java
