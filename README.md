@@ -158,10 +158,11 @@ A smart backend system for managing candidates, jobs, interviews, resumes, and a
 ## 🔐 Future Security Enhancements:
 
   You can later extend this for:
-  •	JWT-based Authentication & Authorization
-  •	Role-based access control (ADMIN, RECRUITER, CANDIDATE)
-  •	OAuth (e.g., Google Login)
-  •	Email/password login with UserDetailsService
+  
+    •	JWT-based Authentication & Authorization
+    •	Role-based access control (ADMIN, RECRUITER, CANDIDATE)
+    •	OAuth (e.g., Google Login)
+    •	Email/password login with UserDetailsService
 
 
 ## DB Schema :
