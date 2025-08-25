@@ -156,6 +156,7 @@ A smart backend system for managing candidates, jobs, interviews, resumes, and a
 •	✅ Integrate with LinkedIn APIs or external job boards
 
 ## 🔐 Future Security Enhancements:
+
   You can later extend this for:
   •	JWT-based Authentication & Authorization
   •	Role-based access control (ADMIN, RECRUITER, CANDIDATE)
