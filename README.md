@@ -184,3 +184,5 @@ Built with Team members ❤️
 
 Email: jayantingle13@gmail.com
 
+### LEGAL & DISCLAIMER :
+Please refer to COPYING.
