@@ -155,6 +155,14 @@ A smart backend system for managing candidates, jobs, interviews, resumes, and a
 
 •	✅ Integrate with LinkedIn APIs or external job boards
 
+## 🔐 Future Security Enhancements:
+  You can later extend this for:
+  •	JWT-based Authentication & Authorization
+  •	Role-based access control (ADMIN, RECRUITER, CANDIDATE)
+  •	OAuth (e.g., Google Login)
+  •	Email/password login with UserDetailsService
+
+
 ## DB Schema :
   ![ER diagram new1](https://github.com/user-attachments/assets/6bfb5fbd-f2be-40d2-bbb7-a9716a73574f)
 
