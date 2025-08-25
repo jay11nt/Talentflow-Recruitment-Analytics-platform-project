@@ -155,7 +155,7 @@ A smart backend system for managing candidates, jobs, interviews, resumes, and a
 
 •	✅ Integrate with LinkedIn APIs or external job boards
 
-## DB Schema :
+## ER Diagram :
   ![ER diagram new1](https://github.com/user-attachments/assets/6bfb5fbd-f2be-40d2-bbb7-a9716a73574f)
 
 
