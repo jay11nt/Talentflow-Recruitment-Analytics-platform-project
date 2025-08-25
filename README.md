@@ -179,3 +179,8 @@ Built with Team members ❤️
 | Vikas Dubey    | vikasdubey56code | Backend        |
 | Harshal Dhirde | harshald7tech    | Backend        |
 | Mohit          | mohit98uiwizard  | Frontend       |
+
+• Our other sources of communication include:
+
+Email: jayantingle13@gmail.com
+
